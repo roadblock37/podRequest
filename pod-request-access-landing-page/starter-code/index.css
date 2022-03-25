@@ -2,7 +2,7 @@
 /* desktop screen uses desktop background image.*/
 @media screen and (min-width: 1200px) {
     .body {
-        background-image: url("./assets/desktop/image-host.jpg") ;
+        background-image: url("./assets/desktop/image-host.jpg");
     }
 }
 
@@ -22,6 +22,7 @@
 }
 
 .body {
-    
+    background-image: url("./assets/desktop/image-host.jpg");
+    background-size: cover;
    
 }
