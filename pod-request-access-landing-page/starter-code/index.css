@@ -1,0 +1,27 @@
+/* media queries*/
+/* desktop screen uses desktop background image.*/
+@media screen and (min-width: 1200px) {
+    .body {
+        background-image: url("./assets/desktop/image-host.jpg") ;
+    }
+}
+
+/* tablet screen changes to tablet background image.*/
+@media (min-width: 768px) {
+    .body {
+        background-image: url("./assets/tablet/image-host.jpg");
+        
+    }
+}
+
+/* mobile screen uses mobile background image.*/
+@media (min-width: 576px) {
+    .body{
+        background-image: url("./assets/mobile/image-host.jpg");
+    }
+}
+
+.body {
+    
+   
+}
