@@ -71,3 +71,9 @@
     line-height: 1.5em;
     max-width: 60%;
 }
+
+/* email form */
+.formInput {
+    display: flex;
+    flex-direction: row;
+}
