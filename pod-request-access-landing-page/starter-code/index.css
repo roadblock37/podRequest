@@ -50,6 +50,24 @@
     position: absolute;
     bottom: 0;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 57%;
     height: 75%;
+}
+
+/* header at the beginning of the information section*/
+.infoHeader {
+    font-family: 'chivo light', sans-serif;
+    font-size: 3rem;
+    color: #54E6AF;
+    line-height: 62px;
+}
+
+.infoContent {
+    font-family: 'chivo light', sans-serif;
+    font-size: 1em;
+    color: white;
+    line-height: 1.5em;
+    max-width: 60%;
 }
