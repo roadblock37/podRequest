@@ -1,24 +1,23 @@
 /* media queries*/
-/* desktop screen uses desktop background image.*/
-@media screen and (min-width: 1200px) {
-    /* .body {
-        background-image: url("./assets/desktop/image-host.jpg");
-    } */
-}
-
-/* tablet screen changes to tablet background image.*/
-@media (min-width: 768px) {
-    /* .body {
+@media screen and (min-width: 1200px){
+    .mainBodyFlex {
         background-image: url("./assets/tablet/image-host.jpg");
         
-    } */
+    }
+}
+/* tablet screen changes to tablet background image.*/
+@media screen and (min-width: 768px) {
+    .mainBodyFlex {
+        background-image: url("./assets/tablet/image-host.jpg");
+        
+    }
 }
 
 /* mobile screen uses mobile background image.*/
-@media (min-width: 576px) {
-    /* .body{
+@media screen and (min-width: 576px) {
+    .mainBodyFlex{
         background-image: url("./assets/mobile/image-host.jpg");
-    } */
+    }
 }
 
 /* page body background color only*/
@@ -64,6 +63,7 @@
     line-height: 62px;
 }
 
+/* paragraph in infoFlex container */
 .infoContent {
     font-family: 'chivo light', sans-serif;
     font-size: 1em;
