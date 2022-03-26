@@ -1,30 +1,47 @@
 /* media queries*/
 /* desktop screen uses desktop background image.*/
 @media screen and (min-width: 1200px) {
-    .body {
+    /* .body {
         background-image: url("./assets/desktop/image-host.jpg");
-    }
+    } */
 }
 
 /* tablet screen changes to tablet background image.*/
 @media (min-width: 768px) {
-    .body {
+    /* .body {
         background-image: url("./assets/tablet/image-host.jpg");
         
-    }
+    } */
 }
 
 /* mobile screen uses mobile background image.*/
 @media (min-width: 576px) {
-    .body{
+    /* .body{
         background-image: url("./assets/mobile/image-host.jpg");
-    }
+    } */
 }
 
+/* page body background color only*/
 .body {
-    background-image: url("./assets/desktop/image-host.jpg");
-    background-size: 70% auto;
-    background-repeat: no-repeat;
-    background-position: right center;
-   
+    background-color: #121725;  
 }
+
+/* company logo at the top left of page*/
+.companyLogo {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+/* section containing page content*/
+.mainBodyFlex  {
+    width: 1275px;
+    height: 640px;
+    background-color: aliceblue;
+    margin-left: 8%;
+    margin-top: -3%;
+    background-image: url("./assets/desktop/image-host.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
