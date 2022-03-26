@@ -34,9 +34,9 @@
 
 /* section containing page content*/
 .mainBodyFlex  {
+    position: relative;
     width: 1275px;
     height: 640px;
-    background-color: aliceblue;
     margin-left: 8%;
     margin-top: -3%;
     background-image: url("./assets/desktop/image-host.jpg");
@@ -44,4 +44,12 @@
     background-position: right;
 }
 
-
+/* contains info and email form*/
+.infoFlex{
+    background-color: #121725;  
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 57%;
+    height: 75%;
+}
