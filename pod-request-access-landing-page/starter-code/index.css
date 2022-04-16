@@ -112,6 +112,24 @@
     font-size: 0.75em;
 }
 
+/* hover effect of submit button*/
 .submitButton:hover {
     background-color: #c2cbe5;
+}
+
+/* social media tags*/
+.socialBar {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 29px;
+    width: 70%;
+}
+
+/* social bar hover effect*/
+.socialBar a:hover {
+    color: #c2cbe5;
 }
