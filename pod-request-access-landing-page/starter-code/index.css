@@ -69,11 +69,27 @@
     font-size: 1em;
     color: white;
     line-height: 1.5em;
-    max-width: 60%;
+    max-width: 52%;
 }
 
 /* email form */
 .formInput {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+    
+}
+
+/* email input field*/
+.formInput input {
+    max-width: 70%;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.submitButton {
+    z-index: 2;
+    top: 0;
+    right: 0;
+    cursor: pointer;
 }
