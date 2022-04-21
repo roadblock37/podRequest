@@ -34,7 +34,7 @@ html {
 .centerLogoDiv {
     width: 100%;
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
 .companyLogo {
@@ -50,8 +50,9 @@ html {
 /* section containing page content*/
 .mainBodyFlex  {
     position: relative;
-    width: auto;
+    max-width: 327px;
     height: 398px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -60,7 +61,7 @@ html {
 /* header at the beginning of the information section*/
 .infoHeader {
     font-family: 'chivo light', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     color: #54E6AF;
     line-height: 38px;
 }
@@ -75,4 +76,54 @@ html {
     font-size: 15px;
     color: #C2CBE5;
     line-height: 25px;
+}
+
+    /* social media tags*/
+
+.socialBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    max-width: 315px;
+}
+
+.spotify {
+    background-image: url("./assets/desktop/spotify.svg");
+    max-width: 100%;
+    height: auto;
+    color: #5A668A;
+}
+
+.applePod {
+    background-image: url("./assets/desktop/apple-podcast.svg");
+    max-width: 45px;
+    height: auto;
+    color: #5A668A;
+}
+
+.googlePod {
+    background-image: url("./assets/desktop/google-podcasts.svg");
+    max-width: 73px;
+    height: auto;
+    color: #5A668A;
+}
+
+.pocketCast {
+    background-image: url("./assets/desktop/pocket-casts.svg");
+    max-width: 77px;
+    height: auto;
+    color: #5A668A;
+}
+
+/* social bar hover effect*/
+.socialBar a:hover {
+    color: #c2cbe5;
+}
+
+/* dot pattern image. Hidden on mobile */
+.dotPattern {
+    visibility: hidden;
 }
