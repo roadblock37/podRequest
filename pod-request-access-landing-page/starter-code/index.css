@@ -68,3 +68,11 @@ html {
 .headerTextColor {
     color: white;
 }
+
+/* paragraph in infoFlex container */
+.infoContent {
+    font-family: 'chivo light', sans-serif;
+    font-size: 15px;
+    color: #C2CBE5;
+    line-height: 25px;
+}
