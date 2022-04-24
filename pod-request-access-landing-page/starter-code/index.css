@@ -20,13 +20,15 @@ html {
 /* company logo is centered in the screen with 1 row on top and on bottom */
 .companyLogo {
     grid-column: 3 / span 2;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* main body content is centered on the screen and spans the remaining height with 1 row on bottom */
 .mainBodyFlex {
     grid-column: 1 / span 6;
-    grid-row: 3 / span 6;
+    grid-row: 2 / span 6;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -66,7 +68,7 @@ html {
     column-gap: 1.5rem;
     align-items: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .spotify {
@@ -118,4 +120,8 @@ html {
     font-weight: bold;
     font-size: 0.75em;
     margin-top: 1rem;
+}
+.submitButton:hover {
+    cursor: pointer;
+    background-color: #c2cbe5;
 }
