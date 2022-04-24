@@ -1,0 +1,20 @@
+/* css stylesheet for tablets with min screen width of 768px */
+/* every html element is border box to keep sizing accurate */
+* {
+    box-sizing: border-box;
+}
+
+/* Sets default page font size to 16px */
+html {
+    font-size: 16px;
+}
+
+/* increases grid size from 6 column 9 row to 12 column  */
+.body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: repeat(9, 1fr); */
+    background-image: url("./assets/tablet/image-host.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}

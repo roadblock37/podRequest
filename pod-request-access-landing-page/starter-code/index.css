@@ -1,3 +1,4 @@
+/* mobile design styling */
 /* every html element is border box to keep sizing accurate */
 * {
     box-sizing: border-box;
@@ -46,10 +47,12 @@ html {
     line-height: 38px;
 }
 
+/* word in infoHeader with color white */
 .headerTextColor {
     color: #ffffff;
 }
 
+/* main information paragraph */
 .infoContent {
     font-family: 'chivo light', sans-serif;
     font-size: 16px;
@@ -58,9 +61,10 @@ html {
 
 /* dot pattern image is hidden on mobile and the space is used by the main body content */
 .dotPattern {
-    visibility: collapse;
+    visibility: hidden;
 }
 
+/* social bar anchor icon container */
 .socialBar {
     max-width: 100%;
     display: grid;
@@ -71,31 +75,37 @@ html {
     padding-bottom: 3rem;
 }
 
+/* spotify anchor image */
 .spotify {
     max-width: 100%;
     height: auto;
 }
 
+/* apple podcast anchor image */
 .applePod {
     max-width: 100%;
     height: auto;
 }
 
+/* google podcast anchor image */
 .googlePod {
     max-width: 100%;
     height: auto;
 }
 
+/* pocket cast anchor image */
 .pocketCast {
     max-width: 100%;
     height: auto;
 }
 
+/* email input form */
 .formInput {
     display: flex;
     flex-direction: column;
 }
 
+/* email input field */
 .formInput input {
     width: 22rem;
     height: 3rem;
@@ -108,6 +118,7 @@ html {
     padding-left: 2rem;
 }
 
+/* submit button */
 .submitButton {
     cursor: pointer;
     height: 3rem;

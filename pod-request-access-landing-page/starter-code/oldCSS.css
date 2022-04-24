@@ -11,8 +11,9 @@
         background-image: url("./assets/tablet/image-host.jpg");   
     }
     .dotPattern {
-        position: relative;
-        margin-left: 0px;
+        visibility: visible;
+        /* position: relative;
+        margin-left: 0px; */
     }
 }
 
