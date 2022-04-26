@@ -59,7 +59,7 @@ html {
     font-family: 'chivo light', sans-serif;
     font-size: 1.2rem;
     line-height: 1.75rem;
-    padding-right: 11rem;
+    padding-right: 12rem;
     color: #C2CBE5;
 }
 
@@ -106,7 +106,7 @@ html {
 
 .formInput {
     max-width: 70%;
-    margin-left: 2rem;  
+      
 }
 
 /* email input field*/
@@ -149,4 +149,12 @@ html {
     right: 0;
     bottom: 0;
     margin-bottom: -250px;
+}
+
+/* error message that is hidden until the form validation has an error. */
+#errorMsg {
+    color: red;
+    font-size: 1rem;
+    visibility: hidden;
+    
 }

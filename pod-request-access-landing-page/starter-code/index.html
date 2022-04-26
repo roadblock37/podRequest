@@ -35,18 +35,19 @@
     </div>
       
     <!-- email input form with javascript validation -->
-    <form action="" method="post" name="emailForm" class="emailForm">
+    <form action="#" name="emailForm" class="emailForm">
       <div class="formInput">
-        <input type="email" name="email" id="email" placeholder="Email address" required>
-        <button class="submitButton" id="submit" value="Request Access" type="submit" onclick="validateEmail(document.emailForm.email">Request Access</button>
+        <input type="text" name="email" id="email" placeholder="Email address" required>
+        <button class="submitButton" id="submit" value="Request Access" type="submit" onclick="validateEmail(document.emailForm.email)">Request Access</button>
       </div>   
     </form>
+    <p id="errorMsg">oops! Please check your email</p>
 
     
   </section>
 
   <!-- dot pattern image -->
   <img src="./assets/desktop/bg-pattern-dots.svg" height="104px" width="232px" class="dotPattern" alt="dot pattern">
-   
+   <script src="./index.js"></script>
 </body>
 </html>

@@ -136,3 +136,11 @@ html {
     cursor: pointer;
     background-color: #c2cbe5;
 }
+
+/* error message that is hidden until the form validation has an error. */
+#errorMsg {
+    color: red;
+    font-size: 1rem;
+    visibility: hidden;
+    
+}

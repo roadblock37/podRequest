@@ -143,6 +143,14 @@ html {
     background-color: #c2cbe5;
 }
 
+/* error message that is hidden until the form validation has an error. */
+#errorMsg {
+    color: red;
+    font-size: 1rem;
+    visibility: hidden;
+    
+}
+
 /* dot pattern image is hidden on mobile and the space is used by the main body content.
 image on tablet is positioned in the bottom left corner of page */
 .dotPattern {

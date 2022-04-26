@@ -6,7 +6,7 @@ function validateEmail(emailID){
         return true;
     }
     else {
-        alert("oops! Please check your email");
+        document.getElementById("errorMsg").style.visibility = "visible";
         document.emailForm.text.focus();
         return false;
     }
