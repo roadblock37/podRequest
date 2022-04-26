@@ -148,4 +148,5 @@ html {
     position: absolute;
     right: 0;
     bottom: 0;
+    margin-bottom: -250px;
 }
