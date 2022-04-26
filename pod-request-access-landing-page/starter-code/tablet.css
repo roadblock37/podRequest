@@ -40,8 +40,6 @@ html {
     text-align: left;
     background-color: #121725;
     margin-left: 1rem;
-    /* padding-left: 0.4rem;
-    padding-right: 0.4rem; */
 }
 
 /* info header */
@@ -145,7 +143,8 @@ html {
     background-color: #c2cbe5;
 }
 
-/* dot pattern image is hidden on mobile and the space is used by the main body content */
+/* dot pattern image is hidden on mobile and the space is used by the main body content.
+image on tablet is positioned in the bottom left corner of page */
 .dotPattern {
     position: absolute;
     left: 0;
